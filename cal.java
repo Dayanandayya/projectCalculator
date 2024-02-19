@@ -24,6 +24,10 @@ class cal{
 class mainclass{
     public static void main(String args[]){
         cal a= new cal();
+        int b;
+        extendArthmetic c=new extendArthmetic();
+        c.squre(20);
+        c.cube(20);
        
         
         System.out.println("Add ="+a.add(20,10));
